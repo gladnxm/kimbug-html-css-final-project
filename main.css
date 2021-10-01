@@ -54,18 +54,18 @@ button {
 }
 
 #Landing .container{
-  text-align: center;
   height: 570px; 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   gap: 20px;
 }
 
 #Landing h1 {
   font-size: 40px;
   letter-spacing: -0.05em;
-  line-height: 40px;
+  line-height: 1;
 }
 
 #Landing p::after {
@@ -90,12 +90,12 @@ button {
 
   #Landing h1 {
     font-size: 68px;
-    line-height: 72px;
+    line-height: 1.08;
   }
 
   #Landing p {
     font-size: 22px;
-    line-height: 32px;
+    line-height: 1.45;
   }
 
   #Landing p::after {
@@ -126,7 +126,10 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  #Testimonials .container { flex-wrap: nowrap; }
+  #Testimonials .container { 
+    flex-wrap: nowrap;
+    gap: 80px;
+  }
   #Testimonials .text-group { width: 50%; }
   #Testimonials h2 { font-size: 26px; }
   #Testimonials p { font-size: 22px; }
@@ -143,7 +146,7 @@ button {
 
 #Program h2 {
   font-size: 34px;
-  line-height: 36px;
+  line-height: 1.06;
   margin-bottom: 20px;
 }
 
@@ -193,7 +196,7 @@ button {
 
   #Program h2 {
     font-size: 56px;
-    line-height: 56px;
+    line-height: 1;
     margin-bottom: 30px;
   }
 
@@ -224,7 +227,7 @@ button {
 
 #Curriculum h2 {
   font-size: 34px;
-  line-height: 36px;
+  line-height: 1.06;
   margin-bottom: 20px;
 }
 
@@ -259,7 +262,7 @@ button {
   }
 
   #Curriculum .content {
-    width: 480px;
+    width: 490px;
     margin-bottom: 70px;
   }
 
@@ -276,7 +279,7 @@ button {
 
   #Curriculum h2 {
     font-size: 56px;
-    line-height: 56px;
+    line-height: 1;
     margin-bottom: 40px;
   }
 
@@ -288,6 +291,11 @@ button {
     font-size: 18px;
     width: 420px;
   }
+
+  #Curriculum .detail {
+    gap: 50px;
+  }
+
 }
 
 
@@ -349,8 +357,12 @@ button {
     justify-content: space-between;
   }
 
+  #Banner .content { 
+    width: 530px; 
+    margin-top: 10px;
+  }
+  
   #Banner img { width: 28%; }
-  #Banner .content { width: 530px; }
   #Banner h2 { font-size: 40px; }
   #Banner .description { font-size: 22px; }
 
