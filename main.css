@@ -154,33 +154,34 @@ button {
   margin-bottom: 30px;
 }
 
-#Program .item-group {
+#Program .card-group {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 20px;
 }
 
-#Program .item {
+#Program .card {
   margin: auto;
   width: 100%;
   text-align: center;
   border: 1px solid #2B292D;
-  border-radius: 5px;
+  border-radius: 8px;
   padding: 25px 0;
+  transition: .2s;
 }
 
-#Program .item:hover {
+#Program .card:hover {
   background-color: #3040C4;
   color: #fff;
 }
 
-#Program .item img {
+#Program .card img {
   height: 200px;
   margin-bottom: 10px;
 }
 
-#Program .item p {
+#Program .card p {
   font-weight: 700;
   font-size: 18px;
 } 
@@ -204,12 +205,12 @@ button {
     max-width: 730px;
     margin: 0 auto 40px;
     font-size: 22px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
 
-  #Program .item { width: 30%; }
-  #Program .item img { height: 160px; }
-  #Program .item p { font-size: 20px; }
+  #Program .card { width: 30%; }
+  #Program .card img { height: 160px; }
+  #Program .card p { font-size: 20px; }
 }
 
 
@@ -285,6 +286,7 @@ button {
 
   #Curriculum .description {
     font-size: 22px;
+    margin-bottom: 60px;
   }
 
   #Curriculum p {
@@ -359,7 +361,7 @@ button {
 
   #Banner .content { 
     width: 530px; 
-    margin-top: 10px;
+    margin-top: 15px;
   }
   
   #Banner img { width: 28%; }
