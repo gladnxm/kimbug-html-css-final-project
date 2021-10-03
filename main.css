@@ -54,7 +54,7 @@ button {
 }
 
 #Landing .container{
-  height: 570px; 
+  height: 100vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,6 +85,7 @@ button {
 
 @media screen and (min-width: 768px) {
   #Landing .container {
+    height: 570px;
     gap: 30px;
   }
 
@@ -297,7 +298,6 @@ button {
   #Curriculum .detail {
     gap: 50px;
   }
-
 }
 
 
@@ -410,7 +410,4 @@ footer a {
 /* 
 line-height 계산법
 피그마의 라인하이트픽셀 / 폰트사이즈픽셀 = 1.얼마를 단위없이 적어준다
-
-그리고 부트스트랩쓸때는 컨테이너,로우,콜등 제공해주는 시스템에
-높이너비 좌우의패딩마진 절대주지마 위아래는ㅇㅋ
 */
